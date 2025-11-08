@@ -33,9 +33,10 @@ Built a production-ready shopping cart system with user authentication, product 
 
 ## 📁 Project Structure
 ```
-nexora-assignment/
+nexora-ecommerce-assignment/
 ├── client/          # React frontend
 ├── server/          # Express backend
+├── assets/          # Project screenshots
 └── README.md        # This file
 ```
 
@@ -49,8 +50,8 @@ nexora-assignment/
 ### Installation
 ```bash
 # Clone repository
-git clone <your-repo-url>
-cd nexora-assignment
+git clone https://github.com/Akhil-Raj59/nexora-ecommerce-assignment.git
+cd nexora-ecommerce-assignment
 
 # Install backend dependencies
 cd server
@@ -87,19 +88,53 @@ npm run dev
 
 ## 📸 Screenshots
 
-[Add 4-5 key screenshots here]
-- Login/Register page
-- Products grid
-- Cart with items
-- Checkout & receipt
+### 1. Login & Registration
+![Login Page](assets/login.png)
+![Register Page](assets/register.png)
+*User authentication with JWT tokens and avatar upload*
+
+### 2. Products Grid
+![Products Page](assets/products.png)
+*Browse 10 products with responsive grid layout*
+
+### 3. Shopping Cart
+![Cart Page](assets/cart.png)
+*Manage items with quantity controls and real-time total*
+
+### 4. Checkout Process
+![Checkout Page](assets/checkout.png)
+*User-friendly checkout form with validation*
+
+### 5. Order Receipt
+![Receipt Modal](assets/receipt.png)
+*Mock order confirmation with order ID and timestamp*
 
 ## 🎥 Demo Video
 
-[📹 Watch Demo]() - 2-minute walkthrough
+**[📹 Watch 2-Minute Demo on YouTube](https://youtu.be/buhGubsC09k?si=qJHMjMO7QLAaGqkP)**
+
+Complete walkthrough showcasing:
+- User registration & login flow
+- Product browsing & cart operations
+- Checkout process & receipt generation
+- Responsive design demonstration
 
 ## 🔗 API Documentation
 
 See [`/server/README.md`](./server/README.md) for complete API reference.
+
+**Core Endpoints:**
+- `GET /api/products` - Fetch all products
+- `POST /api/cart` - Add item to cart
+- `GET /api/cart` - Get cart with total
+- `DELETE /api/cart/:id` - Remove item
+- `POST /api/checkout` - Process checkout
+
+**Bonus Auth Endpoints:**
+- `POST /api/v1/users/register` - User registration
+- `POST /api/v1/users/login` - User login
+- `POST /api/v1/users/logout` - User logout
+- `POST /api/v1/users/refresh-token` - Token refresh
 
 ## 🏗️ Architecture Highlights
 
@@ -120,11 +155,15 @@ See [`/server/README.md`](./server/README.md) for complete API reference.
 - ✅ Bonus: User authentication system
 - ✅ GitHub repository with clean structure
 - ✅ Comprehensive README with setup instructions
-- ✅ Demo video (Loom/YouTube unlisted)
+- ✅ Demo video (YouTube)
 
 ## 👨‍💻 Developer
- 
-📧 Email: your.email@example.com  
-🔗 GitHub: [@Akhil-Raj-59](https://github.com/Akhil-Raj-59)
+
+**Akhil Raj**  
+📧 Email: 532akhil@gmail.com  
+🔗 GitHub: [@Akhil-Raj59](https://github.com/Akhil-Raj59)  
+💼 Repository: [nexora-ecommerce-assignment](https://github.com/Akhil-Raj59/nexora-ecommerce-assignment)
 
 ---
+
+**Built with ❤️ for Nexora Commerce Internship Assignment**
